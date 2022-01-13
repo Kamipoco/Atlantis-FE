@@ -1,0 +1,190 @@
+.martket-place {
+  display: flex;
+  width: 100%;
+  background-color: chocolate;
+
+  .content {
+    flex: 8;
+    background: #242735;
+    padding: 32px 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .content-header {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      .classify {
+        display: flex;
+        color: white;
+        border-radius: 8px;
+        &-item {
+          padding: 8px 16px;
+          background: #2e303d;
+          min-width: 100px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .selected {
+          background: linear-gradient(
+            261.72deg,
+            #fcc94f -30.17%,
+            #21b7c2 152.47%
+          );
+          border-radius: 8px;
+        }
+      }
+
+      .search {
+        position: relative;
+        &-input {
+          padding: 8px 16px;
+          background: #2e303d;
+          border: 1px solid #767885;
+          box-sizing: border-box;
+          border-radius: 8px;
+          color: white;
+          height: 100%;
+          width: 250px;
+        }
+        &-icon {
+          position: absolute;
+          top: 50%;
+          right: 8px;
+          transform: translateY(-60%);
+        }
+      }
+    }
+
+    .filter {
+      width: 100%;
+      margin-top: 60px;
+      .total {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        color: #ffffff;
+      }
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &-list {
+        display: flex;
+      }
+    }
+    .marketplace-grid {
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    
+
+    .paging {
+      display: flex;
+      margin-top: 100px;
+      color: white;
+      align-items: center;
+      .pre-button {
+        width: 56px;
+        height: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #2e303d;
+        border-radius: 4px;
+        margin-right: 24px;
+      }
+
+      .next-button {
+        width: 56px;
+        height: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #2e303d;
+        border-radius: 4px;
+        margin-right: 24px;
+      }
+
+      .current-page {
+        width: 56px;
+        height: 32px;
+        background: #2e303d;
+        border-radius: 4px;
+        padding: 0px 16px;
+        margin-right: 16px;
+      }
+      .page-amount {
+        margin-right: 24px;
+      }
+    }
+  }
+
+  .click-enable {
+    cursor: pointer;
+  }
+  
+}
+.olyc-price{
+  font-size: 24px;
+  line-height: 30px;
+  color: #FFB027;
+}
+
+.nft-card {
+  background: #282b39;
+  border: 1px solid #767885;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    border-color: lightgray;
+  }
+
+  .card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 100%;
+    .card-id {
+      padding: 4px 14px;
+      background: #f2c12e;
+      border-radius: 4px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card-status {
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+
+  
+
+  .dollar-price {
+    font-size: 14px;
+    line-height: 21px;
+    color: #f2c12e;
+    margin-top: 4px;
+  }
+}
+.price {
+  display: flex;
+  margin-top: 16px;
+  .price-amount {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f2c12e;
+    margin-left: 8px;
+  }
+}

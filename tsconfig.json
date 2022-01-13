@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "isolatedModules": true,
+    "noImplicitAny": false,
+    "jsx": "preserve",
+    "paths": {
+      "@styles/*": [
+        "./styles/*"
+      ],
+      "@components/*": [
+        "./components/*"
+      ],
+      "@assets/*": [
+        "./public/assets/*"
+      ]
+    },
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "components/productImageSlider/index.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

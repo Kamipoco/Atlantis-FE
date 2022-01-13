@@ -1,0 +1,31 @@
+
+.register-header{
+    height: 150px;
+    background: blanchedalmond;
+    .connect-metamask{
+        border: 1px solid gray;
+        border-radius: 10px;
+        padding: 10px;
+        &:hover{
+            background-color: #000000;
+            color: blanchedalmond;
+        }
+    }
+}
+.register-section{
+    background-color: lightblue;
+    .register-form{
+        padding: 40px;
+        border: 1px solid gray;
+        .input-form{
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+        .register-submit-button{
+            &:hover{
+                background-color: black;
+                color: blanchedalmond;
+            }
+        }
+    }
+}

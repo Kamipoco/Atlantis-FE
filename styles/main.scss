@@ -1,0 +1,23 @@
+@import '~tailwindcss/base';
+@import '~tailwindcss/components';
+@import '~tailwindcss/utilities';
+
+@import './abstracts/variables';
+@import './abstracts/mixins';
+
+@import './base/reset';
+@import './base/fonts';
+@import './base/global';
+
+@import './layout/footer';
+@import './layout/sideBar';
+@import './layout/paging';
+
+@import './components/heroCard';
+
+@import './pages/home';
+@import './pages/register';
+@import './pages/marketPlace';
+@import './pages/detail';
+@import './pages/buyBox';
+@import './pages/profile';

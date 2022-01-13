@@ -1,0 +1,46 @@
+@mixin minWidth($breakpoint) {
+  @media only screen and (min-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin maxWidth($breakpoint) {
+  @media only screen and (max-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin bgBefore($background) {
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: $background;
+    z-index: 0;
+  }
+}
+
+@mixin customPagination($inactive, $active) {
+  .swiper-pagination-bullet {
+    width: 70px;
+    height: 8px;
+    background-color: $inactive;
+    border-radius: 0;
+    opacity: 1;
+    margin: 0 4px;
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: $active;
+  }
+}
+
+@mixin backgroundBehind($image) {
+  background: url($image);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

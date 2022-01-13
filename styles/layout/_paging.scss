@@ -1,0 +1,39 @@
+.paging{
+    display: flex;
+    margin-top: 100px;
+    color: white;
+    align-items: center;
+    .pre-button{
+        width: 56px;
+        height: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #2E303D;
+        border-radius: 4px;
+        margin-right: 24px;
+    }
+
+    .next-button{
+        width: 56px;
+        height: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #2E303D;
+        border-radius: 4px;
+        margin-right: 24px;
+    }
+
+    .current-page{
+        width: 56px;
+        height: 32px;
+        background: #2E303D;
+        border-radius: 4px;
+        padding: 0px 16px;
+        margin-right: 16px;
+    }
+    .page-amount{
+        margin-right: 24px;
+    }
+}

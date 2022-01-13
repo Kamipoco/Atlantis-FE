@@ -1,0 +1,50 @@
+{
+    "name": "Hero name",
+    "description": "This is Hero",
+    "type": "Hero",
+    "image": "https://...",
+    "attributes": [
+        {
+            "trait_type": "hp",
+            "value": 1.2
+        },
+        {
+            "trait_type": "atk",
+            "value": -2.5
+        },
+        {
+            "trait_type": "def",
+            "value": 4.6
+        },
+        {
+            "trait_type": "class",
+            "value": "Warrior"
+        },
+        {
+            "trait_type": "race",
+            "value": "Brine"
+        },
+        {
+            "trait_type": "rarity",
+            "value": "SR"
+        },
+        {
+            "trait_type": "star",
+            "value": 1
+        },
+        {
+            "trait_type": "level",
+            "value": 1
+        },
+        {
+            "trait_type": "color",
+            "value": {
+                "arm": 1,
+                "body": 2,
+                "helmet": 5,
+                "belt": 4,
+                "head": 2
+            }
+        }
+    ] 
+}
